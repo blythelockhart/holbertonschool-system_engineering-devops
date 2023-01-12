@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -admp .
+ls -a
