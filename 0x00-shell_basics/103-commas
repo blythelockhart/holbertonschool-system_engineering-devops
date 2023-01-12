@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -dmp *
+ls -a -dmp *
