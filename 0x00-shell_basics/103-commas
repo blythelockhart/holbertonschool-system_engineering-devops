@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -admpR
+ls -a -d -m -p
