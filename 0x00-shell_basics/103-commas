@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -admp ./[[:alnum:]]*
+ls -admp [[:alnum:]]
