@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -print -empty
+find . -depth -printf %f\n -empty
