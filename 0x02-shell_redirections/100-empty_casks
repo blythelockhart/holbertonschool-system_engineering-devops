@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -empty -print0
+find . -depth -print0 -empty
