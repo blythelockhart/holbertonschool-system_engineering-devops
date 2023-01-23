@@ -1,9 +1,6 @@
 #!/bin/env bash
 # This script displays "Best School" 10 times (using the 'for' loop)
-I="Best School"
-for I in {1..10}
+for i in "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School" "Best School"
 do
-    if [ $I != 0 ]
-    then echo "$I"
-    fi
+    echo "$i"
 done
