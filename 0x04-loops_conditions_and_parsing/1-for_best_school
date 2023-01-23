@@ -1,7 +1,6 @@
 #!/bin/env bash
 # This script displays "Best School" 10 times (using the 'for' loop)
-for i in {1..10}
+for i in "Best School"
 do
-    echo "Best School"
-    ++$i
+    echo "$i"
 done
