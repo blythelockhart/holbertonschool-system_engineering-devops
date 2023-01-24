@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# This script ends 4-to_infinity_and_beyond w/o using the "kill" and "killall" commands
