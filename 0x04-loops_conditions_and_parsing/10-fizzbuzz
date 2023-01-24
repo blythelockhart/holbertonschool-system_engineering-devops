@@ -11,4 +11,5 @@ do
     then echo "Buzz"
     else echo "$i"
     fi
+    i=$(( i + 1 ))
 done
