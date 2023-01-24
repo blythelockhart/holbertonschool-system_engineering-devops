@@ -1,1 +1,8 @@
-#!/bin/env bash
+#!/usr/bin/env bash
+# This script lists the contents of the current directory (using the 'for' loop)
+LIST="$(ls)"
+for i in $LIST
+do
+    grep -v "[:digit:]\-" "$i"
+    echo "$i"
+done
