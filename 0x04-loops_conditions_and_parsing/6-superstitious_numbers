@@ -1,1 +1,15 @@
-#!/bin/env bash
+#!/usr/bin/env bash
+# This script displays the numbers 1 to 20 and the phrases "bad luck from China", "bad luck from Japan", and "bad luck from Italy" after the 4th, 9th, and 17th iterations respectively
+i=1
+while [ $i -lt 21 ]
+do
+    echo "$i"
+    if [ $i -eq 4 ]
+    then echo "bad luck from China"
+    elif [ $i -eq 9 ]
+    then echo "bad luck from Japan"
+    elif [ $i -eq 17 ]
+    then echo "bad luck from Italy"
+    fi
+    i=$(( i + 1 ))
+done
