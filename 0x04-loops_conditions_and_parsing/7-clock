@@ -11,4 +11,5 @@ do
     Minute=$(( Minute + 1 ))
 done
     Hour=$(( Hour + 1 ))
+    Minute=1
 done
