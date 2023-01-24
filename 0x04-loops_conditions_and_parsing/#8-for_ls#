@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # This script lists the contents of the current directory (using the 'for' loop)
-FILE="$(ls)"
-for i in $FILE
+LIST="$(ls)"
+for i in $LIST
 do
-    echo "$i" | cut -d '-' -f 2
+    file=$( echo "$i" | cut -d- -f2)
+    echo "$file"
 done
