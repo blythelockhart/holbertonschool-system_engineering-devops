@@ -8,4 +8,5 @@ do
     then echo "Hi"
 	 continue
     fi
+    i=$(( i + 1 ))
 done
