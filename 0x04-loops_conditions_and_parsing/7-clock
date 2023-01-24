@@ -8,7 +8,6 @@ do
     while [ $Minute -lt 60 ]
     do
 	echo "$Minute"
-    sleep 60s
     Minute=$(( Minute + 1 ))
 done
     Hour=$(( Hour + 1 ))
