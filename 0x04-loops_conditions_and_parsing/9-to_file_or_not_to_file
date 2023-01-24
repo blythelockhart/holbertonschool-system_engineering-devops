@@ -7,8 +7,8 @@ else echo "school file does not exist"
 fi
 
 if [ -s school ]
-then echo "school file is empty"
-else echo "school file is not empty"
+then echo "school file is not empty"
+else echo "school file is empty"
 fi
 
 if [ -f school ]
